@@ -1,0 +1,19 @@
+{
+  "modules": [
+    "FactCheckLayer",
+    "HallucinationFilter",
+    "PromptTraceability"
+  ],
+  "sequential": true,
+  "stopOnError": false,
+  "options": {
+    "FactCheckLayer": {
+      "model": "gpt-4",
+      "maxTokens": 1500
+    },
+    "HallucinationFilter": {
+      "model": "gpt-4",
+      "maxTokens": 1500
+    }
+  }
+}

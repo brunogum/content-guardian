@@ -1,0 +1,30 @@
+{
+  "modules": [
+    "FactCheckLayer",
+    "EthicalGuardian",
+    "ToneAndAudienceModulator",
+    "PlotLogicBuilder",
+    "SimulatedFeedbackReader",
+    "HallucinationFilter",
+    "WYSIWYGLayoutPreview",
+    "ChapterImageGallery",
+    "PromptTraceability",
+    "SmartExportEngine"
+  ],
+  "sequential": true,
+  "stopOnError": false,
+  "options": {
+    "FactCheckLayer": {
+      "model": "gpt-4",
+      "maxTokens": 1500
+    },
+    "EthicalGuardian": {
+      "model": "gpt-4",
+      "maxTokens": 1500
+    },
+    "ToneAndAudienceModulator": {
+      "model": "gpt-4",
+      "maxTokens": 1500
+    }
+  }
+}
